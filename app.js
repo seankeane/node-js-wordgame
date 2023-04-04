@@ -74,7 +74,7 @@
 
     function printCongrats() {
         const finalTime = (new Date().getTime() - startTime) / 1000;
-        console.log(`WHOOP!! It was ${answer}.\n
+        console.log(`Well Done! The word was ${answer}.\n
     You took you ${finalTime} seconds and ${numGuesses} guesses to find the word.`);
     }
 
